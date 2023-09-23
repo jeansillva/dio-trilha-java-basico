@@ -19,8 +19,7 @@ public class EquilibrandoSaldo {
         double valorRetirada = sc.nextDouble();
 
         double saldoAtualizado = saldoAtual + valorDeposito - valorRetirada;
-
-        // TODO: Imprimir o a saída de conforme a tabela de exemplos (uma casa decimal).
         System.out.printf("O valor do saldo atualizado é de: %.1f%n", saldoAtualizado);
+        sc.close();
     }
 }
